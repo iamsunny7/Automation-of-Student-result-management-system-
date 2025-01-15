@@ -1,0 +1,143 @@
+.upload-excel-container {
+    background-image: url('../../public/sl_031520_28970_32.jpg'); /* Add your background image path */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 0 20px;
+}
+
+.form-box h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-box button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Button alignment for Calculate SPI and Update Database */
+.spi-button {
+    background-color: #007bff;
+}
+
+.spi-button:hover {
+    background-color: #0056b3;
+}
+
+/* Student information table */
+.student-info-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: 20px auto;
+    /* align-items: center; */
+    justify-items: center;
+}
+
+.student-info-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Download PDF Button */
+.student-info-box button {
+    background-color: #ff5722; /* Orange color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.student-info-box button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}
+
+
+.student-info-box th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.student-info-box th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Container for SPI calculation */
+.spi-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.spi-container h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.notification {
+    background-color: #4CAF50; /* Green background for success */
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Optional: Add a fade-in effect */
+.notification {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
